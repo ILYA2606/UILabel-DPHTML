@@ -16,7 +16,25 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSString *htmlString = @"<font face=\"helvetica\"><h1><center>UILabel with <i><font color = \"#ff6c36\">HTML-text</font></i>.<br>Powered by <b><font color = \"#0000ff\">UILabel+DPHTML</font></b>.</center></h1></font>";
+    NSString *htmlString = @"\
+    <font face=\"helvetica\">\
+        <h1>\
+            <center>\
+                UILabel with\
+                <i>\
+                    <font color = \"#ff6c36\">\
+                        HTML-text\
+                    </font>\
+                </i>\
+                .\
+                <br>\
+                Powered by\
+                <font color = \"#0000ff\">\
+                    UILabel+DPHTML\
+                </font>.\
+            </center>\
+        </h1>\
+    </font>";
     [_label setHTML:htmlString withEncoding:NSUTF8StringEncoding];
 }
 
