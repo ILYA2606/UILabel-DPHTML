@@ -15,7 +15,6 @@
 		A054976E1A80EBAE0087032A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A054976C1A80EBAE0087032A /* LaunchScreen.xib */; };
 		A054977A1A80EBAE0087032A /* DPHTMLSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A05497791A80EBAE0087032A /* DPHTMLSampleTests.m */; };
 		A05497861A80EC680087032A /* UILabel+DPHTML.m in Sources */ = {isa = PBXBuildFile; fileRef = A05497851A80EC680087032A /* UILabel+DPHTML.m */; };
-		A0A6FD131A80F06100BE3815 /* Sample.html in Resources */ = {isa = PBXBuildFile; fileRef = A0A6FD121A80F06100BE3815 /* Sample.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +43,6 @@
 		A05497791A80EBAE0087032A /* DPHTMLSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPHTMLSampleTests.m; sourceTree = "<group>"; };
 		A05497841A80EC680087032A /* UILabel+DPHTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+DPHTML.h"; sourceTree = "<group>"; };
 		A05497851A80EC680087032A /* UILabel+DPHTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+DPHTML.m"; sourceTree = "<group>"; };
-		A0A6FD121A80F06100BE3815 /* Sample.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Sample.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +102,6 @@
 			children = (
 				A054975E1A80EBAE0087032A /* Info.plist */,
 				A054975F1A80EBAE0087032A /* main.m */,
-				A0A6FD121A80F06100BE3815 /* Sample.html */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -215,7 +212,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0A6FD131A80F06100BE3815 /* Sample.html in Resources */,
 				A05497691A80EBAE0087032A /* Main.storyboard in Resources */,
 				A054976E1A80EBAE0087032A /* LaunchScreen.xib in Resources */,
 				A054976B1A80EBAE0087032A /* Images.xcassets in Resources */,
